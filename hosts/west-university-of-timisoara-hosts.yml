@@ -1,0 +1,157 @@
+generated: '2026-10-23'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 14
+  own: 14
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - marketing
+  - other
+  - website
+hosts:
+- host: achizitii.uvt.ro
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: uvt.ro
+  role: other
+  relation: own
+- host: actestudii.uvt.ro
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: uvt.ro
+  role: other
+  relation: own
+- host: admitere.uvt.ro
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: uvt.ro
+  role: other
+  relation: own
+- host: api.uvt.ro
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: uvt.ro
+  role: api
+  relation: own
+- host: arte.uvt.ro
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: uvt.ro
+  role: other
+  relation: own
+- host: blog.uvt.ro
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - well-known
+  types:
+  - Blog
+  serves: []
+  registrable_domain: uvt.ro
+  role: marketing
+  relation: own
+- host: cariere.uvt.ro
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: uvt.ro
+  role: other
+  relation: own
+- host: daip.uvt.ro
+  found_by:
+  - probed
+  - site-links
+  types: []
+  serves: []
+  registrable_domain: uvt.ro
+  role: other
+  relation: own
+- host: dict.uvt.ro
+  found_by:
+  - probed
+  - site-links
+  types: []
+  serves: []
+  registrable_domain: uvt.ro
+  role: other
+  relation: own
+- host: doctorat.uvt.ro
+  found_by:
+  - probed
+  - site-links
+  types: []
+  serves: []
+  registrable_domain: uvt.ro
+  role: other
+  relation: own
+- host: dppd.uvt.ro
+  found_by:
+  - probed
+  - site-links
+  types: []
+  serves: []
+  registrable_domain: uvt.ro
+  role: other
+  relation: own
+- host: drept.uvt.ro
+  found_by:
+  - probed
+  - site-links
+  types: []
+  serves: []
+  registrable_domain: uvt.ro
+  role: other
+  relation: own
+- host: uvt.ro
+  found_by:
+  - probed
+  - site-links
+  types: []
+  serves: []
+  registrable_domain: uvt.ro
+  role: other
+  relation: own
+- host: www.uvt.ro
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Website
+  serves: []
+  registrable_domain: uvt.ro
+  role: website
+  relation: own

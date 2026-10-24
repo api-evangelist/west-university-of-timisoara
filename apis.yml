@@ -1,23 +1,62 @@
 aid: west-university-of-timisoara
+
 name: West University of Timisoara
-description: 'West University of Timisoara is a company surfaced via the API Evangelist harvest backlog
-  (source: vc-portfolio) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://uvt.ro/wp-content/uploads/2020/10/UVT-2-2.jpg
+
+description: 'West University of Timisoara (UVT) is a public university located in Timișoara, Romania, offering a wide range of undergraduate, graduate, and doctoral programs across faculties such as Engineering, Sciences, Arts, and Social Sciences. Established in 1962, UVT focuses on research, innovation, and community engagement, fostering international collaborations and providing modern facilities for students and staff. The institution actively publishes data, APIs, and digital services to support education, research, and public information.'
+
 url: https://raw.githubusercontent.com/api-evangelist/west-university-of-timisoara/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-23'
+
 modified: '2026-10-23'
+
 tags:
-- Company
-apis: []
+- Education
+- University
+- Romania
+- Research
+- Public
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/west-university-of-timisoara-hosts.yml
+- type: Blog
+  url: https://blog.uvt.ro/
+- type: DomainSecurity
+  url: security/west-university-of-timisoara-domain-security.yml
 - type: Website
   url: http://www.uvt.ro/
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: The university website redirects and serves only HTML with no machine‑readable API specifications.
+  evidence:
+    - url: https://uvt.ro/
+      status: 301
+  checked: '2026-10-24'
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
